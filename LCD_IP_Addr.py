@@ -3,7 +3,8 @@
 import time
 import socket
 
-import Adafruit_CharLCD as LCD
+
+# import Adafruit_CharLCD as LCD
 def little_btn_interface():
 	# Make list of button value, text, and backlight color.
 	buttons = ( (LCD.SELECT, 'Select', (1,1,1)),
